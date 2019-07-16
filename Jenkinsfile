@@ -7,9 +7,7 @@ pipeline {
                //bat  'mvn clean package'
 
                 /*For Mac & Linux machine */
-                //sh  'mvn clean package'
-                
-                build job : 'Packer_Servlet_Project'
+                sh  'mvn clean package'
             }
 
             post{
